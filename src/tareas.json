@@ -1,32 +1,29 @@
 {
-	"tareas":[
-	{
+	"tareas": [
+	  {
 		"tittle": "Task1",
 		"responsable": "Laura",
 		"descripcion": "Lorem ipsum",
-		"prioridad": "baja"	 
-
-	},
-	{
+		"prioridad": "baja"
+	  },
+	  {
 		"tittle": "Task2",
 		"responsable": "Giovanni",
 		"descripcion": "Lorem ipsum 2",
-		"prioridad": "media"	 
-
-	},
-	{
-		"tittle": "Task3 ",
+		"prioridad": "media"
+	  },
+	  {
+		"tittle": "Task3",
 		"responsable": "Nelly",
 		"descripcion": "Lorem ipsum3",
-		"prioridad": "alta"	 
-
-	},
-	{
-		"tittle": "Task4 ",
+		"prioridad": "alta"
+	  },
+	  {
+		"tittle": "Task4",
 		"responsable": "Sinai",
 		"descripcion": "Lorem ipsum4",
-		"prioridad": "alta"	 
-
-	}
+		"prioridad": "alta"
+	  }
 	]
-}
+  }
+  
