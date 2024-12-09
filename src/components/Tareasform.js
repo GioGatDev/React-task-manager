@@ -5,10 +5,10 @@ class Tareasform extends Component{
 	constructor () {
     super();
     this.state = {
-      title: '',
-      responsible: '',
-      description: '',
-      priority: 'low'
+      tittle: '', // Cambiado de title a tittle para mantener consistencia
+      responsable: '',
+      descripcion: '',
+      prioridad: 'baja'
     };
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -18,10 +18,10 @@ class Tareasform extends Component{
     e.preventDefault();
     this.props.onAddtareas(this.state);
     this.setState({
-      title: '',
+      tittle: '',
       responsable: '',
       descripcion: '',
-      prioridad: 'low'
+      prioridad: 'baja'
     });
   }
 
