@@ -3,18 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@svgr/plugin-svgo": "^8.1.0",
-    "@svgr/webpack": "^8.1.0",
-    "css-select": "^5.1.0",
-    "nth-check": "^2.1.1",
-    "postcss": "^8.4.49",
-    "react": "19.0.0",
+    "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.0.1",
     "resolve-url-loader": "^5.0.0",
     "svgo": "^3.3.2",
-    "terser": "^5.37.0",
-    "webpack": "^5.97.1"
+    "terser": "^5.39.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,10 +17,7 @@
     "eject": "react-scripts eject"
   },
   "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
+    ">0.2%"
   ],
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
