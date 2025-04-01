@@ -5,7 +5,7 @@ class Tareasform extends Component{
 	constructor () {
     super();
     this.state = {
-      tittle: '', // Cambiado de title a tittle para mantener consistencia
+      title: '', // Corregido de tittle a title
       responsable: '',
       descripcion: '',
       prioridad: 'baja'
@@ -18,7 +18,7 @@ class Tareasform extends Component{
     e.preventDefault();
     this.props.onAddtareas(this.state);
     this.setState({
-      tittle: '',
+      title: '', // Corregido de tittle a title
       responsable: '',
       descripcion: '',
       prioridad: 'baja'
@@ -40,9 +40,9 @@ class Tareasform extends Component{
           <div className="form-group">
             <input
               type="text"
-              name="tittle"
+              name="title"
               className="form-control"
-              value={this.state.tittle}
+              value={this.state.title}
               onChange={this.handleInputChange}
               placeholder="Título"
               />
