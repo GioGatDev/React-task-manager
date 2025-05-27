@@ -16,7 +16,7 @@ class Tareasform extends Component{
 
   handleSubmit(e) {
     e.preventDefault();
-    this.props.onAddtareas(this.state);
+     this.props.onAddTask(this.state); // Cambiado de onAddtareas a onAddTask
     this.setState({
       title: '', // Corregido de tittle a title
       responsable: '',

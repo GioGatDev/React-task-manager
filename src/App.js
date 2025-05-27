@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import TaskForm from './components/TaskForm';
+import TaskForm from './components/Tareasform';
 import TaskList from './components/TaskList';
 import logo from './logo.svg';
-import tasksData from './data/tasks.json';
+import tasksData from './tareas.json';
 
 function App() {
-  const [tasks, setTasks] = useState(tasksData || []);
+  const [tasks, setTasks] = useState(tasksData.tareas || []);
 
   const handleAddTask = (task) => {
     setTasks([...tasks, task]);
