@@ -1,9 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render, screen } from '@testing-library/react';
 import App from './App';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+test('renders task manager navigation', () => {
+  render(<App />);
+  const navigationElement = screen.getByRole('navigation');
+  expect(navigationElement).toBeInTheDocument();
+});
+
+test('renders task form', () => {
+  render(<App />);
+  const titleInput = screen.getByPlaceholderText(/título/i);
+  expect(titleInput).toBeInTheDocument();
+});
+
+test('renders task list header', () => {
+  render(<App />);
+  const listHeader = screen.getByText('Lista de Tareas');
+  expect(listHeader).toBeInTheDocument();
 });

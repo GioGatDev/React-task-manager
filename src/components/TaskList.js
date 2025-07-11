@@ -26,7 +26,7 @@ function TaskList({ tasks, onRemoveTask }) {
           <div className="col-md-6 mb-4" key={index}>
             <div className="card h-100">
               <div className="card-header d-flex justify-content-between align-items-center">
-                <h5>{task.tittle || task.title}</h5>
+                <h5>{task.title}</h5>
                 <span className={`badge ${getBadgeClass(task.prioridad)}`}>
                   {task.prioridad}
                 </span>
