@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import TaskForm from './components/Tareasform';
 import TaskList from './components/TaskList';
-import logo from './logo.svg';
 import tasksData from './tareas.json';
 
 function App() {
@@ -29,7 +28,6 @@ function App() {
       <div className="container">
         <div className="row mt-4">
           <div className="col-md-4 text-center">
-            <img src={logo} className="App-logo" alt="logo" />
             <TaskForm onAddTask={handleAddTask} />
           </div>
           <div className="col-md-8">
