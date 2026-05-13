@@ -12,10 +12,12 @@ Una aplicación de gestión de tareas desarrollada en React que permite crear, v
 
 ## Tecnologías Utilizadas
 
-- **React** 18.2.0
+- **React** 18.3.1
+- **React DOM** 18.3.1
 - **React Scripts** 5.0.1
 - **Bootstrap** 4.1.1 (CDN)
-- **Web Vitals** para métricas de rendimiento
+- **Web Vitals** 5.2.0
+- **Testing Library** para pruebas unitarias
 
 ## Instalación
 
